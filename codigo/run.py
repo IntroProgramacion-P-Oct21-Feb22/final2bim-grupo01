@@ -34,8 +34,8 @@ def main():
                                 else:
                                     print("Valor fuera del rango")
         contador = contador + 1
-        salida=int(input("Ingrese el numero 0 si quiere dejar de Ingresar cuentas o cualquier otro numero para continuar --> "))
-        if salida == 0:
+        salida=input("Ingrese no para dejar de Ingresar cuentas o  si para continuar --> ")
+        if salida == "no":
             bandera = False
     cadena = "\nNumero de cuentas creadas: %d --> %s\n" % (contador, obtenerMensaje(contador))
     print(cadena)
