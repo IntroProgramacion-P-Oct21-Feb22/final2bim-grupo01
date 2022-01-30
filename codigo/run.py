@@ -165,11 +165,9 @@ def obtener_mensaje(a):
                 return mensaje_final[2]
 
 
-# agregar los métodos faltantes
-# Aquí empieza el proceso cuando se ejecuta por consola
-# el archivo
-# python run.py
-
-
 if __name__ == "__main__":
+    """"
+    Aquí empieza el proceso cuando se ejecuta por consola
+    el archivo python run.py
+    """
     main()
