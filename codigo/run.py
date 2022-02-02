@@ -36,7 +36,8 @@ def main():
                                     print(crear_flickr())
                                 else:
                                     print("Valor fuera del rango")
-        contador = contador + 1
+        if 1 <= num <= 7:
+            contador = contador + 1
         salida = input("Ingrese no para dejar de Ingresar cuentas o  si para continuar --> ")
         if salida == "no":
             bandera = False
@@ -163,6 +164,8 @@ def obtener_mensaje(a):
         else:
             if a > 16:
                 return mensaje_final[2]
+            else:
+                return "Ninguna cuenta Creada"
 
 
 if __name__ == "__main__":
