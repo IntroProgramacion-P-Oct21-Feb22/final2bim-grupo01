@@ -38,7 +38,7 @@ def main():
                                     print("Valor fuera del rango")
         if 1 <= num <= 7:
             contador = contador + 1
-        salida = input("Ingrese no para dejar de Ingresar cuentas o  si para continuar --> ")
+        salida = input("Ingrese no para dejar de Ingresar cuentas o si para continuar --> ")
         if salida == "no":
             bandera = False
     cadena = "\nNumero de cuentas creadas: %d --> %s\n" % (contador, obtener_mensaje(contador))
@@ -152,7 +152,7 @@ def crear_flickr():
 
 def obtener_mensaje(a):
     """
-    La función obtener_mensaje va a revisir un valor entero y va realizar el proceso para determinar
+    La función obtener_mensaje va a revisar un valor entero y va realizar el proceso para determinar
     en que rango se encuentra la campaña y devolver un mensaje.
     """
     mensaje_final = ["Campaña con poca afluencia", "Campaña moderada siga adelante", "Excelente campaña"]
