@@ -44,7 +44,7 @@ def main():
                                     print("Valor fuera del rango")
         if 1 <= num <= 7:
             contador = contador + 1
-        salida = input("Ingrese no para dejar de Ingresar cuentas o  si para continuar --> ")
+        salida = input("Ingrese no para dejar de Ingresar cuentas o si para continuar --> ")
         if salida == "no":
             bandera = False
     cadena = "\nNumero de cuentas creadas: %d --> %s\n" % (contador, obtener_mensaje(contador))
