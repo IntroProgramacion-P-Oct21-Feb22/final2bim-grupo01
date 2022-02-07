@@ -7,6 +7,12 @@
 
 
 def main():
+    """
+    Este seria el procediiento principal desde el cual se va ha presentar un menu de opciones sobre que tipo de
+    cuentas crear hasta que el usuario lo decida, ademas de que para ello este procedimiento se ecargara de
+    llamar a los difrenetes procedimientos o funciones segun sea el caso. Una vez que se termine de ingresar cuentas
+    se llamara a una funcion que me duvuelve un mensaje en segun el numero de cuentas creadas y los presentara.
+    """
     bandera = True
     contador = 0
     while bandera:
@@ -152,7 +158,7 @@ def crear_flickr():
 
 def obtener_mensaje(a):
     """
-    La función obtener_mensaje va a revisir un valor entero y va realizar el proceso para determinar
+    La función obtener_mensaje va a revisar un valor entero y va realizar el proceso para determinar
     en que rango se encuentra la campaña y devolver un mensaje.
     """
     mensaje_final = ["Campaña con poca afluencia", "Campaña moderada siga adelante", "Excelente campaña"]

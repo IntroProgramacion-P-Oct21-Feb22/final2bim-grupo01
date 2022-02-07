@@ -1,7 +1,10 @@
-# 2 Bimestre 
+# 2 Bimestre
+
 ## Proyecto Python
 
-***
+Integrantes: Jonathan Coronel y Pablo Figueroa
+
+---
 
 ### Problemática a resolver
 
@@ -38,7 +41,7 @@ En la **función principal** se presenta un ciclo repetitivo que presenta un men
 - Si se ingresa 6 se llamará a crearInstagram
 - Si se ingresa 7 se llamará a crearFlickr
 
->En cada iteración del ciclo; se pregunta al usuario si se desea salir del ciclo.
+> En cada iteración del ciclo; se pregunta al usuario si se desea salir del ciclo.
 
 Cada método **que no devuelve** valores debe imprimir un resumen de la cuenta creada con todos los valores ingresados
 
@@ -47,8 +50,9 @@ Cada método que devuelva valores debe hacer un return con un resumen de la cuen
 **Cuando el usuario termina el ciclo repetitivo** se debe presentar un mensaje con base al número total de cuentas creadas. Se debe usar el número total de cuentas como argumento (entero) de una función llamada obtenerMensaje
 
 - En la función obtenerMensaje existe un parámetro. El mensaje se forma de la siguiente manera:
+
 ```
-Se usa el siguiente arreglo unidimensional:  
+Se usa el siguiente arreglo unidimensional:
 
 mensajeFinal = ["Campaña con poca afluencia", "Campaña moderada siga adelante", "Excelente campaña"]
 ```
@@ -60,9 +64,8 @@ b. Si el número de cuentas creadas está en el rango de 6 a 15 el mensaje será
 c. Si el número de cuentas creadas está en el rango de 16 en adelante, el mensaje será: **Excelente campaña**
 
 ### Presentación del trabajo final
+
 - En la carpeta código: use el archivo run.py
 - Se solicita usar como base las líneas de código del archivo
 
-***
-
-
+---
