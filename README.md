@@ -2,7 +2,7 @@
 ## Proyecto Python
 
 ---
-
+Integrantes: Jonathan Coronel y Pablo Figueroa 
 ### Problemática a resolver
 
 Generar un solución en lenguaje de programación Python
