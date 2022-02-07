@@ -1,8 +1,5 @@
 # 2 Bimestre
-
 ## Proyecto Python
-
-Integrantes: Jonathan Coronel y Pablo Figueroa
 
 ---
 
